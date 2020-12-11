@@ -1,0 +1,48 @@
+
+Casos innecesarios
+
+1) 
+
+const hola () => {
+
+};
+
+----------------------------------------------------------------------------------------------------
+
+2) 
+
+for (let i = 0; i < 10; i++) {
+
+};
+
+----------------------------------------------------------------------------------------------------
+
+Casos obligatorios
+
+1) cuando empezemos una nueva linea y esta sea un array
+
+console.log('Hola);
+[1,2,3,4].forEach(n => console.log(n*2))
+
+
+2) cuando empezemos una nueva linea y esta sea un template string
+
+console.log('Hola);
+´holkissssss´
+
+3) Por enter puede generar un error
+
+// Bien
+const saludar (n) => {
+	return {
+		...
+	}
+
+// Mal
+const saludar (n) => {
+	return 
+		{
+		...
+		}
+}
+
